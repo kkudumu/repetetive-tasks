@@ -30,19 +30,13 @@ Pulls your Freshservice and Jira tickets into a task list, drafts ticket replies
 
 ### Install the skill
 
-1. Download [`skills/it-ops.skill`](skills/it-ops.skill) from this repo
+Run this one command:
 
-2. In Claude Code, run:
-   ```
-   /install-skill path/to/it-ops.skill
-   ```
+```bash
+mkdir -p ~/.claude/skills/it-ops && curl -fsSL https://raw.githubusercontent.com/kkudumu/repetetive-tasks/master/skills/it-ops/SKILL.md -o ~/.claude/skills/it-ops/SKILL.md
+```
 
-3. Verify it's available:
-   ```
-   /it-ops
-   ```
-
-That's it. The skill is ready to use.
+Then type `/it-ops` in Claude Code to use it. No restart needed.
 
 ---
 
